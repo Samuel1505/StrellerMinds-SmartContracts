@@ -11,3 +11,7 @@ soroban-sdk = { version = "^23.0.0", features = ["testutils"] }
 
 [dependencies]
 soroban-sdk = "^23.0.0"
+soroban-sdk = { workspace = true, features = ["testutils"] }
+
+[dependencies]
+soroban-sdk = { workspace = true }
